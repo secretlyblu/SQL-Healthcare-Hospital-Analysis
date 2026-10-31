@@ -310,17 +310,15 @@ ORDER BY year, month;
 
 ## Findings
 
-*(Placeholder values: replace with your actual results.)*
-
-- **Overall Readmission Rate**: The hospital's 30-day readmission rate is **[X]%**, with **[Department]** the highest at **[X]%** and **[Department]** the lowest at **[X]%**.
-- **High-Risk Diagnoses**: **[Diagnosis 1]**, **[Diagnosis 2]**, and **[Diagnosis 3]** have the highest readmission rates, ranging from **[X]%** to **[X]%**.
-- **Age Groups**: Patients aged **[age group]** are readmitted most often at **[X]%**, compared with **[X]%** for the **[age group]** group.
-- **Length of Stay**: **[Admission type]** admissions have the longest average stay at **[X]** days.
-- **Profitability**: **[Department]** generates the highest margin at **$[X]**, while **[Department]** generates the lowest at **$[X]**.
-- **Payer Gap**: **[Insurance type]** has the largest gap between charges and insurance paid at **$[X]**.
-- **High-Cost Patients**: The top 10 patients account for **$[X]** in hospital cost, with patient **[ID]** the highest at **$[X]**.
-- **Admission Shifts**: The **[shift]** shift is the busiest with **[X]** admissions, followed by **[shift]** and **[shift]**.
-- **Admission Trends**: Admissions peaked in **[month]** in 2023 and **[month]** in 2024.
+- **Overall Readmission Rate**: The hospital's 30-day readmission rate is **13%**, with **Cardiology** the highest at **19%** and **Orthopedics** the lowest at **9%**.
+- **High-Risk Diagnoses**: **Heart Failure**, **Sepsis**, and **COPD** have the highest readmission rates, ranging from **23%** to **33%**.
+- **Age Groups**: Patients aged **80+** are readmitted most often at **~20%**, compared with **~12%** for the **50-64** group.
+- **Length of Stay**: **Emergency** admissions have the longest average stay at **5** days.
+- **Profitability**: **Oncology** generates the highest margin at **$7,728.06**, while **Pulmonology** generates the lowest at **$3,014.05**.
+- **Payer Gap**: **Medicare** has the largest gap between charges and insurance paid at **$10,846,396.17**.
+- **High-Cost Patients**: The top 10 patients account for **$1,410,292.44** in hospital cost, with patient **1744** the highest at **$171,192**.
+- **Admission Shifts**: The **Morning** shift is the busiest with **1585** admissions, followed by **Evening** and **Overnight**.
+- **Admission Trends**: Admissions peaked in **April** in 2023 and **January** in 2024.
 
 ## Reports
 
@@ -330,11 +328,10 @@ ORDER BY year, month;
 
 ## Recommendations
 
-*(Placeholder: update after reviewing your findings.)*
 
-1. Target discharge planning and follow-up care for **[high-risk diagnoses]** and **[high-risk age group]** patients to reduce readmissions.
-2. Review pricing and reimbursement for **[payer]** to close the gap between charges and payments.
-3. Align staffing with the **[busiest shift]** and **[peak months]** to match patient demand.
+1. Target discharge planning and follow-up care for **Heart Failure** and **80+** patients to reduce readmissions.
+2. Review pricing and reimbursement for **Medicare** to close the gap between charges and payments.
+3. Align staffing with the **Morning** and **First Quarter of the year** to match patient demand.
 
 ## Assumptions & Limitations
 
@@ -360,9 +357,9 @@ This project walks through the core SQL workflow of a healthcare data analyst: d
 - SQL (SQLite)
 - GitHub
 
-## Author - [Your Name]
+## Author - Diane Gordon
 
 This project is part of my data analytics portfolio, showcasing SQL skills for healthcare and health tech analyst roles. Feel free to reach out with questions or feedback.
 
-- **LinkedIn**: [Add your link]
-- **GitHub**: [Add your link]
+- **LinkedIn**: (https://www.linkedin.com/in/diagordon/)
+- **GitHub**: (https://github.com/secretlyblu?tab=repositories)
